@@ -36673,13 +36673,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 264px;
+  min-height: 246px;
 }
 
 .u-header .u-image-1 {
-  width: 358px;
-  height: 239px;
-  margin: 10px auto 0 -91px;
+  width: 320px;
+  height: 214px;
+  margin: 16px auto 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -36689,7 +36689,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-menu-1 {
   font-family: size-14;
-  margin: -63px -44px 42px auto;
+  margin: -26px 0 7px auto;
 }
 
 .u-header .u-file-icon-1 {
@@ -36701,6 +36701,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 400;
   font-size: 1rem;
   text-transform: none;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -36708,56 +36709,68 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 358px;
+    width: 357px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -63px;
-    margin-right: -44px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
+    width: auto;
+    margin-top: -26px;
+    margin-right: 0;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-image-1 {
-    width: 357px;
-    margin-top: 20px;
-    margin-bottom: 19px;
-    margin-left: 74px;
-  }
-}
-@media (max-width: 767px) {
   .u-header .u-sheet-1 {
-    min-height: 297px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-bottom: 0;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 14px;
-  }
-}
-@media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 292px;
+    min-height: 286px;
   }
 
   .u-header .u-image-1 {
     margin-top: 21px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -18px;
+    margin-right: auto;
+    margin-bottom: 33px;
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 253px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 10px;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: -19px;
+    margin-bottom: 13px;
+    margin-left: 99px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 221px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 4px;
     margin-left: -8px;
     margin-right: -8px;
   }
 
   .u-header .u-menu-1 {
-    margin: 0 -16px;
+    margin-top: -57px;
+    margin-bottom: 27px;
+    margin-left: 0;
+  }
+
+  .u-header .u-file-icon-1 {
+    font-size: calc(1em + 10px);
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
  .u-footer {
